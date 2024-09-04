@@ -57,5 +57,5 @@ Se ha configurado Docker para el despliegue de la aplicación.
 ![Pantalla Carga de imagenes - Antes](./public/images/upload2_before.png)
 ![Pantalla Carga de imagenes - Despues](./public/images/upload2_after.jpg)
 
-![Pantalla Carga de imagenes - Antes](./public/images/upload2_before.png)
-![Pantalla Carga de imagenes - Despues](./public/images/upload2_after.jpg)
+![Pantalla Carga de imagenes - Antes](./public/images/upload3_before.png)
+![Pantalla Carga de imagenes - Despues](./public/images/upload3_after.jpg)
