@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Components
 
-## Getting Started
+## Descripción
 
-First, run the development server:
+Este proyecto es una aplicación Next.js que incluye un modal de inicio de sesión y otros componentes que han sido adaptados para ejecutarse en un contenedor Docker. A continuación, se describen los cambios realizados y se proporcionan comparaciones visuales.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Características
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Inicio de sesión modal**: Un componente modal para iniciar sesión con campos para nombre de usuario y contraseña.
+- **Cambio de contraseña visible**: Un icono de ojo para mostrar/ocultar la contraseña.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Cambios Realizados
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 1. Modal de Inicio de Sesión
 
-## Learn More
+Se ha agrandado la letra y definido un color secundario para mejor armonia. Se le ha puesto un fondo al login para hacerlo mas amigable
 
-To learn more about Next.js, take a look at the following resources:
+**Antes:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- La pantalla no contaba con un fondo ademas de usar siempre el mismo color haciendo que la pagina carezca de calidez
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Después:**
 
-## Deploy on Vercel
+- Se ha creado un modal con campos para nombre de usuario y contraseña.
+- Se ha añadido un fondo para que el usuarios se sienta mas comodo.
+- Se ha definido como color secundario el #D9668D.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Captura de Pantalla:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Modal de Inicio de Sesión - Antes](./public/images/login_before.png)
+![Modal de Inicio de Sesión - Después](./public/images/login_after.jpg)
+
+### 2. Configuración de Docker
+
+Se ha configurado Docker para el despliegue de la aplicación.
+
+- Se ha añadido un archivo `Dockerfile` para construir la imagen Docker.
+- Se ha creado un archivo `docker-compose.yml` para simplificar la administración de contenedores.
+
+### 3. Pantalla Carga de imagenes
+
+**Antes:**
+
+- La pantalla lucia mas rigida y fria manejandose casi en su totalidad por los grises ademas de no resaltar tanto donde es que el usuarios esta parado
+- Los datos que llegaban de la IA eran dificiles de entender.
+- Al cargar mas imagenes se ponia una abajo de la otra.
+
+**Despues:**
+
+- Se definio un diseño en figma que fuera mas amigable y que ademas se diera un feedback mas inmediato de donde se esta ademas de agrandar la tipografia y el ancho der los botones
+- Se separo los datos ademas de darle su propio espacio a cada uno y unificar los nombres para evitar confuciones
+- Se implemento los tags como ficheros parecido a lo que tenian arriba para que cada imagen tenga su lugar y pueda acceder por separado
+
+![Pantalla Carga de imagenes - Antes](./public/images/upload_before.png)
+![Pantalla Carga de imagenes - Despues](.public/images/upload_after.png)
+
+![Pantalla Carga de imagenes - Antes](./public/images/upload2_before.png)
+![Pantalla Carga de imagenes - Despues](.public/images/upload2_after.png)
+
+![Pantalla Carga de imagenes - Antes](./public/images/upload2_before.png)
+![Pantalla Carga de imagenes - Despues](.public/images/upload2_after.png)
