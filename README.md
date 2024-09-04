@@ -52,10 +52,10 @@ Se ha configurado Docker para el despliegue de la aplicación.
 - Se implemento los tags como ficheros parecido a lo que tenian arriba para que cada imagen tenga su lugar y pueda acceder por separado
 
 ![Pantalla Carga de imagenes - Antes](./public/images/upload_before.png)
-![Pantalla Carga de imagenes - Despues](.public/images/upload_after.png)
+![Pantalla Carga de imagenes - Despues](.public/images/upload_after.jpg)
 
 ![Pantalla Carga de imagenes - Antes](./public/images/upload2_before.png)
-![Pantalla Carga de imagenes - Despues](.public/images/upload2_after.png)
+![Pantalla Carga de imagenes - Despues](.public/images/upload2_after.jpg)
 
 ![Pantalla Carga de imagenes - Antes](./public/images/upload2_before.png)
-![Pantalla Carga de imagenes - Despues](.public/images/upload2_after.png)
+![Pantalla Carga de imagenes - Despues](.public/images/upload2_after.jpg)
